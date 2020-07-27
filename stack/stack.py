@@ -23,7 +23,7 @@ class Stack:
         return self.storage.get_length()
 
     def push(self, value):
-        pass
+        return self.storage.add_to_tail(value)
 
     def pop(self):
-        pass
+        return self.storage.remove_tail()
