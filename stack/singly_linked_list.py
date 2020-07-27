@@ -23,6 +23,9 @@ class LinkedList:
         self.tail = None
         self.length = 0
 
+    def get_length(self):
+        return self.length
+
     def add_to_head(self, value):
         new_node = Node(value, self.head)
         self.head = new_node
