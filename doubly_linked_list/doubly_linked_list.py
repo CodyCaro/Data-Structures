@@ -131,3 +131,5 @@ class DoublyLinkedList:
 
     def get_max(self):
         pass
+
+    # test
